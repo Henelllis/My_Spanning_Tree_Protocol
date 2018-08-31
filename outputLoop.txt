@@ -1,0 +1,387 @@
+***********************************************************************
+Interogatting Message
+ Claimed Root:1 
+DISTANCE FROM ROOT: 0
+Origin:1
+Destination:2
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:2 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[]
+Paththrough 2
+	Testing switch 2's root of 2 against message's 1 root of 1
+	Messages root is lower than we go into this body
+	Increment Distance
+	adding link of 1 to switches active links of switch 2
+		Passthrough is true on this
+		 bool is now True
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		Sending out message
+		Claimed Root:1 
+		DISTANCE FROM ROOT: 1
+		Origin:2
+		Destination:1
+		Passthrough:True
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		Sending out message
+		Claimed Root:1 
+		DISTANCE FROM ROOT: 1
+		Origin:2
+		Destination:4
+		Passthrough:False
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Get data info at end for switch 2
+ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:1 
+DISTANCE FROM ROOT: 0
+Origin:1
+Destination:3
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:3 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[]
+Paththrough 3
+	Testing switch 3's root of 3 against message's 1 root of 1
+	Messages root is lower than we go into this body
+	Increment Distance
+	adding link of 1 to switches active links of switch 3
+		Passthrough is true on this
+		 bool is now True
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		Sending out message
+		Claimed Root:1 
+		DISTANCE FROM ROOT: 1
+		Origin:3
+		Destination:1
+		Passthrough:True
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		Sending out message
+		Claimed Root:1 
+		DISTANCE FROM ROOT: 1
+		Origin:3
+		Destination:4
+		Passthrough:False
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Get data info at end for switch 3
+ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:2 
+DISTANCE FROM ROOT: 0
+Origin:2
+Destination:1
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[]
+Paththrough 1
+	Testing switch 1's root of 1 against message's 2 root of 2
+Get data info at end for switch 1
+ROOT:1 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:2 
+DISTANCE FROM ROOT: 0
+Origin:2
+Destination:4
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:4 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[]
+Paththrough 4
+	Testing switch 4's root of 4 against message's 2 root of 2
+	Messages root is lower than we go into this body
+	Increment Distance
+	adding link of 2 to switches active links of switch 4
+		Passthrough is true on this
+		 bool is now True
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		Sending out message
+		Claimed Root:2 
+		DISTANCE FROM ROOT: 1
+		Origin:4
+		Destination:2
+		Passthrough:True
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		Sending out message
+		Claimed Root:2 
+		DISTANCE FROM ROOT: 1
+		Origin:4
+		Destination:3
+		Passthrough:False
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Get data info at end for switch 4
+ROOT:2 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[2]
+Paththrough 2
+***********************************************************************
+Interogatting Message
+ Claimed Root:3 
+DISTANCE FROM ROOT: 0
+Origin:3
+Destination:1
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[]
+Paththrough 1
+	Testing switch 1's root of 1 against message's 3 root of 3
+Get data info at end for switch 1
+ROOT:1 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:3 
+DISTANCE FROM ROOT: 0
+Origin:3
+Destination:4
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:2 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[2]
+Paththrough 2
+	Testing switch 4's root of 2 against message's 3 root of 3
+Get data info at end for switch 4
+ROOT:2 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[2]
+Paththrough 2
+***********************************************************************
+Interogatting Message
+ Claimed Root:4 
+DISTANCE FROM ROOT: 0
+Origin:4
+Destination:2
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
+	Testing switch 2's root of 1 against message's 4 root of 4
+Get data info at end for switch 2
+ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:4 
+DISTANCE FROM ROOT: 0
+Origin:4
+Destination:3
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
+	Testing switch 3's root of 1 against message's 4 root of 4
+Get data info at end for switch 3
+ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:1 
+DISTANCE FROM ROOT: 1
+Origin:2
+Destination:1
+Passthrough:True
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[]
+Paththrough 1
+	Testing switch 1's root of 1 against message's 2 root of 1
+Get data info at end for switch 1
+ROOT:1 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[2]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:1 
+DISTANCE FROM ROOT: 1
+Origin:2
+Destination:4
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:2 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[2]
+Paththrough 2
+	Testing switch 4's root of 2 against message's 2 root of 1
+	Messages root is lower than we go into this body
+	Increment Distance
+		Passthrough is true on this
+		 bool is now True
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		Sending out message
+		Claimed Root:1 
+		DISTANCE FROM ROOT: 2
+		Origin:4
+		Destination:2
+		Passthrough:True
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+		Sending out message
+		Claimed Root:1 
+		DISTANCE FROM ROOT: 2
+		Origin:4
+		Destination:3
+		Passthrough:False
+		+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Get data info at end for switch 4
+ROOT:1 
+DISTANCE FROM ROOT: 2
+ACTIVE LINKS:[2]
+Paththrough 2
+***********************************************************************
+Interogatting Message
+ Claimed Root:1 
+DISTANCE FROM ROOT: 1
+Origin:3
+Destination:1
+Passthrough:True
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[2]
+Paththrough 1
+	Testing switch 1's root of 1 against message's 3 root of 1
+Get data info at end for switch 1
+ROOT:1 
+DISTANCE FROM ROOT: 0
+ACTIVE LINKS:[2, 3]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:1 
+DISTANCE FROM ROOT: 1
+Origin:3
+Destination:4
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 2
+ACTIVE LINKS:[2]
+Paththrough 2
+	Testing switch 4's root of 1 against message's 3 root of 1
+Get data info at end for switch 4
+ROOT:1 
+DISTANCE FROM ROOT: 2
+ACTIVE LINKS:[2]
+Paththrough 2
+***********************************************************************
+Interogatting Message
+ Claimed Root:2 
+DISTANCE FROM ROOT: 1
+Origin:4
+Destination:2
+Passthrough:True
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
+	Testing switch 2's root of 1 against message's 4 root of 2
+Get data info at end for switch 2
+ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1, 4]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:2 
+DISTANCE FROM ROOT: 1
+Origin:4
+Destination:3
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
+	Testing switch 3's root of 1 against message's 4 root of 2
+Get data info at end for switch 3
+ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:1 
+DISTANCE FROM ROOT: 2
+Origin:4
+Destination:2
+Passthrough:True
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1, 4]
+Paththrough 1
+	Testing switch 2's root of 1 against message's 4 root of 1
+Get data info at end for switch 2
+ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1, 4]
+Paththrough 1
+***********************************************************************
+Interogatting Message
+ Claimed Root:1 
+DISTANCE FROM ROOT: 2
+Origin:4
+Destination:3
+Passthrough:False
+***********************************************************************
+Get data info at start
+ ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
+	Testing switch 3's root of 1 against message's 4 root of 1
+Get data info at end for switch 3
+ROOT:1 
+DISTANCE FROM ROOT: 1
+ACTIVE LINKS:[1]
+Paththrough 1
